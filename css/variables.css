@@ -1,0 +1,9 @@
+:root {
+  --gray-900: #101828;
+  --gray-500: #667085;
+  --gray-400: #98a2b3;
+  --base-white: #fff;
+  --base-red: #8e2424;
+
+  --font-main: "Inter", sans-serif;
+}
