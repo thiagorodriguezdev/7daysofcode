@@ -1,28 +1,58 @@
-.container__header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1.8rem 8rem;
+.container__cabecalho {
+  text-align: center;
+  margin: 9.6rem auto;
+  max-width: 79.1rem;
 }
 
-.navbar {
+.cabecalho__text {
+  font-size: 1.6rem;
+  color: var(--base-red);
+  font-weight: 600;
+  line-height: 2.4rem;
+  margin-bottom: 2.4rem;
+}
+
+.cabecalho__title {
+  margin-bottom: 3.6rem;
+}
+
+.cabecalho__text__secondary {
+  font-size: 2rem;
+  line-height: 3rem;
+  color: var(--gray-500);
+}
+
+.container__metricas {
   display: flex;
   gap: 3.2rem;
+  justify-content: center;
+  margin-bottom: 19.6rem;
 }
 
-.navbar a {
-  font-size: 1.6rem;
-  color: var(--gray-500);
+.container__vacancies {
+  text-align: center;
+}
+
+.vacancies__text__primary {
+  font-size: 1.4rem;
+  color: var(--base-red);
+  margin-bottom: 2rem;
   font-weight: 500;
-  line-height: 24px;
-  transition: color .3s ease;
 }
 
-.navbar a:hover {
-  color: #ccc;
+.vacancies__text__secondary {
+  font-size: 2rem;
+  color: var(--gray-500);
+  line-height: 3rem;
+  margin: 2rem 0 6.4rem 0;
 }
 
-.btn__header {
-  display: flex;
-  gap: 1.2rem;
+.vacancies__image {
+  margin: 0 auto;
+  border-radius: 1.6rem;
+}
+
+.open__vacaciones {
+  max-width: 76.8rem;
+  margin: 64px auto;
 }
