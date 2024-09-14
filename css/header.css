@@ -1,0 +1,28 @@
+.container__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.8rem 8rem;
+}
+
+.navbar {
+  display: flex;
+  gap: 3.2rem;
+}
+
+.navbar a {
+  font-size: 1.6rem;
+  color: var(--gray-500);
+  font-weight: 500;
+  line-height: 24px;
+  transition: color .3s ease;
+}
+
+.navbar a:hover {
+  color: #ccc;
+}
+
+.btn__header {
+  display: flex;
+  gap: 1.2rem;
+}
